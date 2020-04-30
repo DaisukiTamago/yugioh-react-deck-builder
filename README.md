@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# yugioh-react-deck-builder
+Web App to build Yu-Gi-Oh Decks, allows you to download a deck file compatible with Yu-Gi-Oh Pro format 
+>>>>>>> 98d62ed4de67eca23938fb84cbe367f12c1025fd
