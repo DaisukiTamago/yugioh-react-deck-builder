@@ -1,14 +1,25 @@
 {
   "name": "yugioh-deck-builder",
+  "author": "DaisukiTamago",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "js-file-download": "^0.4.11",
+    "rc-tooltip": "^4.0.3",
     "react": "^16.13.1",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-floater": "^0.7.2",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "shortid": "^2.2.15"
   },
   "scripts": {
     "start": "react-scripts start",

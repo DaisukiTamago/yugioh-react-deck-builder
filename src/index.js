@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import store from './Redux/Store'
+import {Provider} from 'react-redux'
+import { DndProvider } from 'react-dnd'
+import Backend from 'react-dnd-html5-backend'
 import './index.css';
-import App from './App';
+import Home from './Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <DndProvider backend={Backend}>
+      <Home/>
+    </DndProvider>
+  </Provider>,
   document.getElementById('root')
 );
 

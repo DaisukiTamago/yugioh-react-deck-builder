@@ -1,0 +1,53 @@
+.lister {
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: 1px solid #001B0C;
+    scrollbar-base-color: transparent;
+    scrollbar-color: green;
+    grid-area: lister;
+    min-height: 50vh;
+    width: initial;
+    scrollbar-width: 100px;
+    scrollbar-color: green;
+}
+
+.lister::-webkit-scrollbar-track-piece {
+    background-color: tomato;
+    color: yellow;
+}
+
+.lister div {
+    margin: 10px;
+}
+
+.lister button {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top: 2px solid white;
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 900;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 0px 5px white;
+    background-color: transparent;
+    width: 100%;
+    transition: 1s;
+}
+
+.lister button:hover{
+    background-color: #01031A;
+    text-shadow: none;
+    cursor: pointer;
+
+}
+

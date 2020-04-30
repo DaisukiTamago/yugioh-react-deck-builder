@@ -1,0 +1,22 @@
+.deck-container {
+    grid-area: deck;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #001B0C;
+}
+
+.deck {
+    height: fit-content;
+    overflow-y: auto;
+   
+}
+
+
+.deck div {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+}

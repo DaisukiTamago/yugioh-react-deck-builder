@@ -1,0 +1,58 @@
+.card {
+    width: 90px;
+    height: 120px;
+    background-color: gray;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../res/placeholder.png');
+}
+
+.card-modal {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    width: 900px;
+    height: initial;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-modal div, h6 {
+    text-shadow: 0px 0px 2px white;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-left: 10px;
+    height: 100%;
+    width: 70%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-modal img{
+    width: 200px;
+    height: 300px;
+    justify-self: flex-start;;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../../res/placeholder.png');
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    background: none;
+    opacity: 0.5;
+}
+.card img{
+    width: 90px;
+    height: 120px;
+    background-color: gray;
+}
+
+.card img:hover{
+    cursor: pointer;
+}

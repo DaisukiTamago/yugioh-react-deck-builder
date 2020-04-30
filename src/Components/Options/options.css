@@ -1,0 +1,33 @@
+.options {
+    grid-area: options;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    border-left: 1px solid #001B0C;
+}
+
+.options button{
+    border: none;
+    padding: 1px;
+    width: 85px;
+    height: 50px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 5px 10px black;
+    font-size: 1vw;
+    transition: 0.5s;
+    margin-left: 30px;
+    outline: none;
+    background: rgb(0,98,157);
+    background: linear-gradient(311deg, rgba(0,98,157,1) 25%, rgba(18,124,67,1) 77%);    
+}
+
+.options button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 0px;
+    border: 0;
+}

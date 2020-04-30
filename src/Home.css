@@ -1,0 +1,9 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  grid-template-rows: 1fr 1fr 1.5fr 0.5fr;
+  
+  grid-template-areas: "search deck" "search deck" "lister deck" "lister options";
+}
