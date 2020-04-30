@@ -31,7 +31,7 @@ const Search =  () => {
             dispatch({type: "UPDATE_LISTER", payload: response.data.data})
             dispatch({type: 'SET_LOADING_STATE', payload: false})
         } catch (err) {
-            alert(`I-i'm sorry, something just gone wrong =(. Check the parameters again and be sure everything is just fine!`)
+            alert(`I-i'm sorry, something just gone wrong =(.\n Change the parameters and try again`)
             dispatch({type: 'SET_LOADING_STATE', payload: false})
         }
     }

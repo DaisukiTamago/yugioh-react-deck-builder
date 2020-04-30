@@ -5,35 +5,13 @@ import fileDownload from 'js-file-download'
 
 const Options = () => {
     const dispatch =  useDispatch()
-    const deck = useSelector(state => state.deck)
-    const belongsToExtraDeck = (type) => {
-        if (        type === 'XYZ Monster' ||
-                    type === 'Pendulum Effect Fusion Monster' ||
-                    type === 'Synchro Monster' ||
-                    type === 'Synchro Pendulum Effect Monster' ||
-                    type === 'Synchro Tuner Monster' ||
-                    type === 'XYZ Pendulum Effect Monster' ||
-                    type === 'Fusion Monster' ||
-                    type === 'Link Monster'
-                ) { return true} 
-                else {return false}  
-            
-    }   
+    const mainDeck = useSelector(state => state.deck.main)
+    const extraDeck = useSelector(state => state.deck.extra)
+      
     const deckBuilder = () => {
-        let mainDeck = []
-        let extraDeck = []
         let deckFileToDownload = ''
-        deck.map(card => {
-
-            if (belongsToExtraDeck(card.type)) {
-                    extraDeck.push(card)
-                } else {
-                    mainDeck.push(card)
-                }
-
-        })
-
-        deckFileToDownload += `#created by DaisukiTamago's Deck Builder\n`
+        
+        deckFileToDownload += `#created by DaisukiTamago's Deck Builder https://github.com/DaisukiTamago/yugioh-react-deck-builder\n`
         deckFileToDownload += `#main\n`
         mainDeck.map(card => deckFileToDownload+= card.id.toString() + '\n')
         deckFileToDownload += `#extra\n`
