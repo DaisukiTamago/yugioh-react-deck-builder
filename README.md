@@ -1,5 +1,5 @@
 # Yu-Gi-Oh! React Deck Builder  
-![image-preview](https://media.discordapp.net/attachments/429759374601486346/705530812509978675/Screenshot_from_2020-04-30_18-26-55.png)  
+![image-preview](https://repository-images.githubusercontent.com/260310712/cf7cf800-8b11-11ea-8da8-8b1f5022fa2f)  
 Web App to build Yu-Gi-Oh Decks, allows you to download a deck file compatible with Yu-Gi-Oh Pro Format
 
 # Features
